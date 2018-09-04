@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Toast.makeText(this, "就是我改的我是--->0001", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "你改我也改", Toast.LENGTH_SHORT).show();
 
     }
